@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS heros(
+CREATE TABLE IF NOT EXISTS heroes(
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     name varchar(256) UNIQUE NOT NULL,
     about_me varchar(512) NOT null,
